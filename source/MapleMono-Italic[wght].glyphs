@@ -2984,6 +2984,16 @@ code = "  sub [@Digit @Uppercase] colon' [@Digit @Uppercase] by colon.case;
     sub bracketleft' I N F O bracketright by SPC;
   } badge_info.liga;
 
+  # [INFO]
+  lookup badge_info2.liga {
+    sub SPC SPC SPC SPC SPC bracketright' by badge_info2.liga;
+    sub SPC SPC SPC SPC O' bracketright by SPC;
+    sub SPC SPC SPC F' O bracketright by SPC;
+    sub SPC SPC N' F O bracketright by SPC;
+    sub SPC I' N F O bracketright by SPC;
+    sub bracketleft' I N F O bracketright by SPC;
+  } badge_info2.liga;
+
   # [WARN]
   lookup badge_warn.liga {
     sub SPC SPC SPC SPC SPC bracketright' by badge_warn.liga;
@@ -3665,6 +3675,16 @@ code = "  featureNames {
     sub SPC @i' @n @f @o bracketright by SPC;
     sub bracketleft' @i @n @f @o bracketright by SPC;
   } badge_info.liga.ss03;
+
+  # [INFO]
+  lookup badge_info2.liga.ss03 {
+    sub SPC SPC SPC SPC SPC bracketright' by badge_info2.liga;
+    sub SPC SPC SPC SPC @o' bracketright by SPC;
+    sub SPC SPC SPC @f' @o bracketright by SPC;
+    sub SPC SPC @n' @f @o bracketright by SPC;
+    sub SPC @i' @n @f @o bracketright by SPC;
+    sub bracketleft' @i @n @f @o bracketright by SPC;
+  } badge_info2.liga.ss03;
 
   # [WARN]
   lookup badge_warn.liga.ss03 {
